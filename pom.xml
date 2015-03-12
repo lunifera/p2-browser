@@ -15,7 +15,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <groupId>com.ifedorenko.p2-browser</groupId>
   <artifactId>p2-browser</artifactId>
   <packaging>pom</packaging>
@@ -33,7 +33,7 @@
   <repositories>
     <repository>
       <id>eclipse</id>
-      <url>http://download.eclipse.org/eclipse/updates/3.8</url>
+      <url>http://download.eclipse.org/eclipse/updates/4.4</url>
       <layout>p2</layout>
     </repository>
   </repositories>
@@ -94,13 +94,4 @@
       </plugin>
     </plugins>
   </build>
-
-  <profiles>
-    <profile>
-      <id>jnlp</id>
-      <modules>
-        <module>com.ifedorenko.p2browser.jnlp</module>
-      </modules>
-    </profile>
-  </profiles>
 </project>
