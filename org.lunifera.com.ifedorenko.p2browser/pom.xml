@@ -16,12 +16,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.ifedorenko.p2-browser</groupId>
-    <artifactId>p2-browser</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <groupId>org.lunifera.com.ifedorenko.p2-browser</groupId>
+    <artifactId>org.lunifera.p2-browser</artifactId>
+    <version>0.9.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>com.ifedorenko.p2browser.feature</artifactId>
-  <packaging>eclipse-feature</packaging>
+  <artifactId>org.lunifera.com.ifedorenko.p2browser</artifactId>
+  <packaging>eclipse-plugin</packaging>
 
 </project>
